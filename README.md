@@ -12,8 +12,21 @@ The data Martha will be working with is not ideal, so it will need to be process
 
 The purpose of this analysis is to help Martha discover trends that will convince her firm to invest in these new currencies.
 
-## Result
+## Results
 
-#### Scatter Plot
+- Preprocessing the dataset in order to perform PCA
+
+<img width="459" alt="Screen Shot 2022-04-28 at 5 47 13 PM" src="https://user-images.githubusercontent.com/95826875/166070241-74b2a025-ce48-4933-af75-82d92405f5bc.png">
+
+- Reducing the dimensions of the X DataFrame to three principal components and placing these dimensions in a new DataFrame
+
+<img width="281" alt="Screen Shot 2022-04-28 at 5 47 34 PM" src="https://user-images.githubusercontent.com/95826875/166070364-5f679cdf-59d7-4c6b-8b01-97e069d0c8a8.png">
+
+- Creating an elbow curve using hvPlot to find the best value for K from the DataFrame.
+
+<img width="833" alt="Screen Shot 2022-04-29 at 5 23 00 PM" src="https://user-images.githubusercontent.com/95826875/166071027-5adb56ba-50ca-4d61-b5b6-310c0be4ce82.png">
+
+
+- Creating scatter plots with Plotly Express and hvplot to visualize the distinct groups that correspond to the three principal components
 
 <img width="759" alt="Screen Shot 2022-04-28 at 5 50 20 PM" src="https://user-images.githubusercontent.com/95826875/166070059-16e1dd14-2dc7-4633-9357-fffb4dfd74d6.png">
